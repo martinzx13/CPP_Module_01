@@ -85,7 +85,3 @@ int main() {
 ### Conclusion
 
 This exercise helps solidify your understanding of memory management in C++. By implementing the `Zombie` class and its associated functions, you gain practical experience in when and how to use stack vs. heap allocation, as well as ensuring proper destruction of objects.
-
----
-
-Feel free to copy this into a `README.md` file and adjust as necessary for your repository. This README provides a comprehensive overview of the exercise, along with instructions on how to implement, compile, and run the program.
