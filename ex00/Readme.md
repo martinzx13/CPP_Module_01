@@ -22,7 +22,7 @@ The `Zombie` class has the following characteristics:
 
 - **Attributes**:
   - `std::string name`: The name of the zombie (private).
-  
+
 - **Member Functions**:
   - `void announce()`: Announces the zombie's name in the format: `"<name>: BraiiiiiiinnnzzzZ..."`
 
@@ -72,11 +72,11 @@ The `Zombie` class has the following characteristics:
 int main() {
     // Creating a Zombie on the heap
     Zombie* heapZombie = newZombie("HeapZombie");
-    heapZombie->announce();
-    delete heapZombie; // Remember to free heap-allocated memory
 
     // Creating a Zombie on the stack
     randomChump("StackZombie");
+
+    delete heapZombie; // Remember to free heap-allocated memory
 
     return 0;
 }
